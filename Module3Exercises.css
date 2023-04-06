@@ -1,0 +1,53 @@
+/* Set default styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  #content {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Style the browsehappy message for old browsers */
+  .browsehappy {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    color: #222;
+    padding: 10px;
+  }
+  
+  /* Media query to adjust styles for smaller screens */
+  @media screen and (max-width: 767px) {
+    h1 {
+      font-size: 24px;
+    }
+    
+    button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+  
