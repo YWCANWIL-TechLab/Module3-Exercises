@@ -46,6 +46,20 @@ let x = 20;
 let y = 20;
 let xEqualsY;
 
+// * Bigints
+
+// TODO Give largeNumber a value of 100000000000000000000 and bigInteger a value of100000000000000000000n 
+let largeNumber;    // Number
+let bigInteger;    // Bigint
+
+// TODO Try to add these variables together in the console.
+// ? What happens?
+
+// TODO Create a new variable called safe which is equal to Number.MAX_SAFE_INTEGER (9007199254740991)
+
+// TODO Console.log() the sum of safe and largeNumber.
+// ? What happens? Does that look correct?
+
 
 // * Objects
 
