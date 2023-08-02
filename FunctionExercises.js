@@ -3,11 +3,14 @@
 // * Syntax & Declaration
 
 // TODO Create an empty function called myEmptyFunction
+function myEmptyFunction() {
+
+}
 
 // TODO Create a function that converts a temperature in Farenheight to Celcius, then prints it out
 // ! The formula is: C = (F - 32) * (5/9)
 function convertFahrenheitToCelcius(tempInFahrenheit) {
-
+    console.log((tempInFahrenheit - 32) * (5/9));
 }
 
 // TODO Create a function that converts a temperature in Celcius to Fahrenheit, then prints it out
@@ -49,7 +52,3 @@ let variable2;
 // TODO Set variable1 to testFunction(test). 
 // TODO Set variable2 to testFunction
 // ? These will have different outputs. What is the difference? Why?
-
-
-
-

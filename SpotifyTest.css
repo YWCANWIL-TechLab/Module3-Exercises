@@ -1,0 +1,123 @@
+/* Global styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    background-color: #191414;
+    color: #fff;
+  }
+  
+  a {
+    color: #1DB954;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0 16px;
+    background-color: #040306;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-logo img {
+    height: 32px;
+    margin-right: 8px;
+  }
+  
+  .header-menu {
+    display: flex;
+  }
+  
+  .header-menu a {
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .header-menu a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 32px 16px;
+  }
+  
+  /* New releases section styles */
+  .carousel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  
+  .prev, .next {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .prev {
+    margin-right: 16px;
+  }
+  
+  .slider {
+    display: flex;
+    width: 750px;
+    overflow-x: hidden;
+  }
+  
+  .slider img {
+    height: 200px;
+    margin-right: 16px;
+  }
+  
+  /* Featured playlists section styles */
+  .playlists {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .playlist {
+    margin-right: 16px;
+    margin-bottom: 32px;
+    width: calc((100% / 3) - 16px);
+  }
+  
+  .playlist img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .playlist h3 {
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  
+  .playlist p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #B3B3B3;
+  }
+  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spotify Clone</title>
+    <link type="stylesheet" href=""
+</head>
+<body>
+  <header>
+    <!-- Add header content here -->
+  </header>
+  <nav>
+    <!-- Add navigation bar content here -->
+  </nav>
+  <main>
+    <h1>New Releases</h1>
+    <div class="carousel">
+      <button class="prev">Prev</button>
+      <div class="slider">
+        <img src="album1.jpg" alt="Album 1">
+        <img src="album2.jpg" alt="Album 2">
+        <img src="album3.jpg" alt="Album 3">
+        <!-- Add more album covers here -->
+      </div>
+      <button class="next">Next</button>
+    </div>
+  </main>
+  <script>
+    const slider = document.querySelector('.slider');
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+    const slideWidth = 250;
+    let position = 0;
+
+    function slideRight() {
+      if (position > -slideWidth * 2) {
+        position -= slideWidth;
+        slider.style.transform = `translateX(${position}px)`;
+      }
+    }
+
+    function slideLeft() {
+      if (position < 0) {
+        position += slideWidth;
+        slider.style.transform = `translateX(${position}px)`;
+      }
+    }
+
+    prevButton.addEventListener('click', slideLeft);
+    nextButton.addEventListener('click', slideRight);
+  </script>
+</body>
+</html>
