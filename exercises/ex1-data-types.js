@@ -27,6 +27,7 @@ function singleQuotes() {
  */
 function backtickString() {
     // TODO Write your answer here
+
 }
 
 /**
@@ -38,7 +39,13 @@ function backtickString() {
  * example1, then use console.log() to print out the value of example1.
  */
 function concatenate() {
-    // TODO Write your answer here
+    let example1 = "Hello world";
+    let example2 = 50;
+    let example3 = 50;
+    // String is first
+    // Concatenate 50
+    // Concatenate 50 again
+    console.log(example3 + example2 + example1 );
 }
 
 // TODO Add (and log) exampleNumber1 to exampleString
@@ -80,6 +87,8 @@ function addNumberStringAndNumber() {
  */
 function createFloat() {
     // TODO Write your answer here
+    let pi = 3.14;
+    console.log(pi);
 }
 
 /**
@@ -91,6 +100,8 @@ function createFloat() {
  */
 function createInteger() {
     // TODO Write your answer here
+    let integer = 5;
+    console.log(integer);
 }
 
 /**
@@ -100,6 +111,8 @@ function createInteger() {
  */
 function exponential() {
     // TODO Write your answer here
+    let exp = 213e5;
+    console.log(exp);
 }
 
 // * Booleans
@@ -110,6 +123,8 @@ function exponential() {
  */
 function createBoolean() {
     // TODO Write your answer here
+    let bool = true;
+    console.log(bool);
 }
 
 /**
@@ -120,15 +135,6 @@ function createBoolean2() {
     // TODO Write your answer here
 }
 
-// TODO Create a boolean by comparing the value of two numbers
-let x = 20;
-let y = 20;
-let xEqualsY;
-
-
-function createBoolean3() {
-    // TODO Write your answer here
-}
 
 // * Bigints
 
@@ -147,6 +153,10 @@ let bigInteger;    // Bigint
  */
 function createBigInteger() {
     // TODO Write your answer here
+    let largeNumber = 100000000000000000000;
+    let bigInteger = 100000000000000000000n;
+    console.log(typeof largeNumber);
+    console.log(typeof bigInteger);
 }
 
 // TODO Try to add these variables together in the console.
@@ -178,6 +188,9 @@ function addNumberAndBigInteger() {
  */
 function addToMaxSafeInteger() {
     // TODO Write your answer here
+    let safe = 9007199254740991;
+    let largeNumber = 10000000000000000;
+    console.log(safe + largeNumber);
 }
 
 // * Objects
@@ -192,6 +205,14 @@ function addToMaxSafeInteger() {
 
 function createMeObject() {
     // TODO Write your answer here
+    const meObject = {
+        name : "Graham Eichstaedt",
+        age : 24,
+        hairColor : "Blonde"
+    };
+    console.log(meObject.name);
+    console.log(meObject.age);
+    console.log(meObject.hairColor);
 }
 
 
@@ -204,6 +225,8 @@ function createMeObject() {
  */
 function createUndefined() {
     // TODO Write your answer here
+    let unassigned;
+    console.log(unassigned);
 }
 
 /**
@@ -211,8 +234,10 @@ function createUndefined() {
  * have cleared the variable, use console.log() to find the value of dog.
  */
 function useUndefined() {
-    const dog = {name: "Simba", age: 2, breed:"Belgian Malinois"};
+    let dog = {name: "Simba", age: 2, breed:"Belgian Malinois"};
     // TODO Write your answer here
+    dog = undefined;
+    console.log(dog);
 }
 
 // * Null
@@ -224,6 +249,9 @@ function useUndefined() {
 function useNull() {
     let person = { name: "Eggbert" };
     // TODO Write your answer here
+    person = null;
+    console.log(person);
+    return 0;
 }
 
 // * Symbol
@@ -237,6 +265,9 @@ function useNull() {
  */
 function createSymbol() {
     // TODO Write your answer here
+    const name1 = Symbol("Graham");
+    const name2 = Symbol("Graham");
+    console.log(name1 === name2);
 }
 
 /**
@@ -246,5 +277,10 @@ function createSymbol() {
  */
 function useSymbol() {
     // TODO Write your answer here
+    const name = Symbol("Graham");
+    const person = {
+        name : "Graham"
+    };
+    console.log(person);
 }
 
