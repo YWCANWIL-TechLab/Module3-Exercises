@@ -44,7 +44,6 @@ function addMethod() {
     } 
 };
 
-// TODO Given the following object, console.log() it's method with and without the parentheses () 
 /**
  * Given the following object, use its method both with and without the p
  * parentheses ().

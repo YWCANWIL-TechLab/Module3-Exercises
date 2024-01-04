@@ -5,7 +5,6 @@
 // TODO Create an empty function called myEmptyFunction
 
 
-// ! The formula is: C = (F - 32) * (5/9)
 /**
  * Create a function that prints a temperature in Fahrenheit as a temperature 
  * in Celsius.
@@ -18,7 +17,6 @@ function convertFahrenheitToCelsius(tempInFahrenheit) {
     // TODO Finish the function
 }
 
-// ! The formula is: F = (C * (9/5)) + 32
 /**
  * Create a function that prints a temperature in Celsius as a temperature in
  * Fahrenheit.
